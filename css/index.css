@@ -1,0 +1,66 @@
+
+.arriba {
+    background-color: rgb(71, 160, 160);
+    height: 100px;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden; /* Para mantener el contenedor al redimensionar las cajas */
+}
+
+.left-box {
+    background-color: #1c6be0;
+    width: 490px;
+    height: 540px;
+    padding: 20px;
+    float: left; 
+    margin-top: 10px;
+}
+
+
+.right-box {
+    background-color: #a04040;
+    width: 700px;
+    padding: 10px;
+    float: right; 
+    margin-top: 10px;
+    height: 560px;
+
+}
+
+/* Cajas internas en la caja derecha */
+.right-box .top-box,
+.right-box .bottom-box {
+    background-color: #76ca96;
+    height: 250px; /* Divide en dos partes la caja derecha */
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* Quitar margen en la última caja interna */
+.right-box .bottom-box {
+    margin-bottom: 0;
+}
+
+.cuadrotasa{
+    top: 20px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(113, 99, 87);
+    position: relative;
+
+    
+    }
+    .footer{
+        position: relative;
+        width: 100%;
+    background-color: rgb(47, 69, 94);
+    height: 60px;
+    top: 810px;
+    }
